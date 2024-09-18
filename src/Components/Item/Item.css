@@ -1,0 +1,44 @@
+.cardProductos {
+    background-color: #d0e6c1;
+    border-radius: 10px;
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 400px;
+    text-align: center;
+}
+
+.cardProductos img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cardProductos h3, .cardProductos p {
+    margin: 10px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    font-size: 18px;
+}
+.cardProductos button {
+    background-color: rgba(169, 168, 165, 0.719);
+    color: #fafafa;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    align-self: center;
+    margin-top: 20px;
+
+}
+

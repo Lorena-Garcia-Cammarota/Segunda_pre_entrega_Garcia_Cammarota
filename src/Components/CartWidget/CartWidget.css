@@ -1,0 +1,12 @@
+.imgCarrito {
+    width: 50px;
+    padding-right: 15px;
+}
+
+.cantCarrito {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
