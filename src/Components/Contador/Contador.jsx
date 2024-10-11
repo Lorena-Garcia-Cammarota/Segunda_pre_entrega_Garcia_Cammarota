@@ -7,7 +7,7 @@ const Contador = ({inicial, stock, funcionAgregar}) => {
 
     const sumarContador = () => {
         if (contador < stock) {
-            setContador(contador +1)
+            setContador(contador + 1)
         }
     }
 
@@ -17,17 +17,17 @@ const Contador = ({inicial, stock, funcionAgregar}) => {
         }
     }
 
-  return (
-    <>
-        <div>
-            <button onClick={restarContador}> - </button>
-            <strong>{contador}</strong>
-            <button onClick={sumarContador}> + </button>
-        </div>
+    return (
+        <>
+            <div>
+                <button onClick={restarContador}> - </button>
+                <strong>{contador}</strong>
+                <button onClick={sumarContador}> + </button>
+            </div>
 
-        <button onClick={()=>funcionAgregar(contador)}> Agregar al carrito</button>
-    </>
-  )
+            <button onClick={()=>funcionAgregar(contador)}> Agregar al carrito </button>
+        </>
+    )
 }
 
 export default Contador
